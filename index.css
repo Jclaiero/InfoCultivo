@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(231, 208, 166);
+}
+body header {
+    color: coral;
+    font-size: 25px;
+}
+
+ header h1{
+    border: 3em;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: bisque;
+    color: brown;
+ }
+
+h1{
+    padding-left: 500px;
+}
+
