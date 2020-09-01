@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>InfoCultivo</title>
-</head>
-<body>
+  </head>
+  <body>
     <header><h1 id="infomedia">InfoCultivo</h1></header>
 
-    <span class="info"><h2>Toda la informacion de cultivo que estes buscando.</h2></span>
+    <span class="info"
+      ><h2>Toda la informacion de cultivo que estes buscando.</h2></span
+    >
 
-    
-          <div><h1> hello michanguito como le va don como va?</h1></div>
+    <div class="pure-menu pure-menu-horizontal">
+      <ul class="pure-menu-list">
+        <li class="pure-menu-item pure-menu-selected">
+          <a href="#" class="pure-menu-link">Home</a>
+        </li>
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+          <a href="#" id="menuLink1" class="pure-menu-link">Contact</a>
+          <ul class="pure-menu-children">
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Email</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Twitter</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Tumblr Blog</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
 
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
