@@ -11,31 +11,16 @@
   <body>
     <header><h1 id="infomedia">InfoCultivo</h1></header>
 
-    <span class="info"
-      ><h2>Toda la informacion de cultivo que estes buscando.</h2></span
-    >
-
-    <div class="pure-menu pure-menu-horizontal">
-      <ul class="pure-menu-list">
-        <li class="pure-menu-item pure-menu-selected">
-          <a href="#" class="pure-menu-link">Home</a>
-        </li>
-        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-          <a href="#" id="menuLink1" class="pure-menu-link">Contact</a>
-          <ul class="pure-menu-children">
-            <li class="pure-menu-item">
-              <a href="#" class="pure-menu-link">Email</a>
-            </li>
-            <li class="pure-menu-item">
-              <a href="#" class="pure-menu-link">Twitter</a>
-            </li>
-            <li class="pure-menu-item">
-              <a href="#" class="pure-menu-link">Tumblr Blog</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+    <form class="pure-form">
+      <fieldset>
+          <legend>A compact inline form</legend>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <label for="default-remember">
+              <input type="checkbox" id="default-remember" />Remember me</label>
+          <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+      </fieldset>
+  </form>
 
     <script src="index.js"></script>
   </body>
